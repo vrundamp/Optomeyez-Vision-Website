@@ -3,75 +3,250 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Optomeyez Vision</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Dr. Vrunda Patel, O.D. | Bartow Optometrist</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="bg-info text-white text-center py-4">
-    <h1>Optomeyez Vision</h1>
-    <nav class="mt-3">
-      <a href="#about" class="text-white mx-3">About</a>
-      <a href="#services" class="text-white mx-3">Services</a>
-      <a href="#contact" class="text-white mx-3">Contact</a>
+  <header class="site-header" id="top">
+    <nav class="navbar">
+      <a href="#top" class="brand">
+        <img src="logo.png" alt="Practice Logo" class="logo" />
+        <span class="brand-text">
+          <span class="brand-title">Dr. Vrunda Patel, O.D.</span>
+          <span class="brand-subtitle">Independent Optometrist at Walmart</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="https://itrust0666.itrust.io/appointment" class="btn-primary">Book Now</a></li>
+      </ul>
     </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Comprehensive Medical Eye Care in Bartow</h1>
+        <p>
+          Advanced imaging and personalized care for everything from glasses to glaucoma management, conveniently located inside Walmart at 1050 E Van Fleet Rd, Bartow, FL 33830.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Schedule an Appointment</a>
+          <a href="#technology" class="btn-outline">Explore Our Technology</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <span>Your Vision, Our Focus</span>
+          </div>
+          <div class="hero-card-body">
+            <!--- <p class="hero-metric-label">Advanced Eye Imaging</p>
+            <p class="hero-metric">
+              OCT scans for detailed views of the retina and optic nerve to support glaucoma diagnosis and follow-up.
+            </p> --->
+          </div>
+        </div>
+      </div>
+    </section>
   </header>
 
-  <section id="navbar" class="hero text-center text-white d-flex align-items-center justify-content-center">
-	<div id="hero">
-		<div id="hero-content">
-		  <h2>Your Vision, Our Focus</h2>
-		  <p>Personalized eye care with precision and compassion.</p>
-		  <a href="#contact" class="btn btn-light mt-3">Book an Appointment</a>
-		</div>
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>Your Neighborhood Medical Optometrist</h2>
+          <p>
+            Dr. Vrunda Patel is an independent optometrist providing comprehensive eye care inside the Walmart Vision Center in Bartow, FL, with services that go beyond routine vision checks to address medical eye conditions.
+          </p>
+          <p>
+            Trained at the Pennsylvania College of Optometry at Salus University in a one-of-a-kind prestigious program that admits only fourteen talented students per year, Dr. Patel combines a strong medical foundation with a warm, personal approach to care for patients of all ages.
+          </p>
+          <ul class="about-list">
+            <li>Thorough eye exams for glasses and contact lenses.</li>
+            <li>Evaluation and management of conditions like glaucoma, dry eyes, and diabetic eye disease.</li>
+            <li>Convenient location and hours inside Walmart Supercenter at Bartow, FL.</li>
+          </ul>
+        </div>
+        <div class="about-image-card">
+          <div class="about-image-wrapper">
+            <img src="doctor.jpg" alt="Dr. Vrunda Patel headshot" class="about-image" />
+          </div>
+          <div class="about-image-info">
+            <h3>Dr. Vrunda Patel, O.D.</h3>
+            <p>Doctor of Optometry</p>
+            <p>Salus University – Pennsylvania College of Optometry</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="section technology">
+      <div class="container">
+        <h2>Advanced Technology for Better Care</h2>
+        <p class="section-intro">
+          The office is equipped with modern diagnostic tools, including Optical Coherence Tomography (OCT), to catch issues earlier and manage disease more precisely.
+        </p>
+        <div class="technology-grid">
+          <div class="tech-card">
+            <h3>OCT Imaging</h3>
+            <p>
+              OCT provides high-resolution cross-sectional images of the retina and optic nerve, helping detect glaucoma and other diseases before vision loss occurs.
+            </p>
+            <p>
+              This allows monitoring of subtle structural changes over time so treatment can be started or adjusted at the right moment.
+            </p>
+          </div>
+          <div class="tech-card">
+            <h3>Glaucoma Management</h3>
+            <p>
+              Combining OCT data with clinical examination and pressure measurements enables more accurate diagnosis and tracking of glaucoma progression.
+            </p>
+            <p>
+              Early detection and consistent follow-up significantly reduce the risk of permanent vision loss in glaucoma patients.
+            </p>
+          </div>
+		  <div class="tech-card">
+			<h3>Dry Eye & Punctal Occlusion</h3>
+			<p>
+			  For patients with chronic dry eye, tiny plugs can be placed in the tear drainage openings (puncta) to help natural tears stay on the eye longer and improve comfort.
+			</p>
+			<p>
+			  This in-office procedure is quick, minimally invasive, and works alongside other dry eye therapies to reduce burning, irritation, and fluctuating vision.
+			</p>
+		  </div>          
+        </div>
+		<h3>Comprehensive Diagnostic Suite</h3>
+		<p>
+		  Modern equipment supports a broad scope of practice, from monitoring diabetic eye changes to assessing macular conditions in addition to routine refraction. This technology-focused approach means patients can receive more complete care in a convenient setting.
+		</p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+      <div class="container">
+        <h2>Services Offered</h2>
+        <p class="section-intro">
+          From vision correction to medical eye care, the practice provides a full range of optometric services for the whole family.
+        </p>
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Routine Eye Exams</h3>
+            <ul>
+              <li>Glasses and contact lens prescriptions.</li>
+              <li>Digital eye strain and computer vision evaluations.</li>
+              <li>Children’s and adult comprehensive exams.</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <h3>Medical Eye Care</h3>
+            <ul>
+              <li>Glaucoma evaluation and ongoing monitoring.</li>
+              <li>Red eye, infections, and minor eye emergencies.</li>
+              <li>Diabetic and hypertensive eye health assessments.</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <h3>Specialized Testing</h3>
+            <ul>
+              <li>OCT imaging of the retina and optic nerve.</li>
+              <li>Visual field testing for functional vision changes.</li>
+              <li>Corneal and anterior segment assessments.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section location">
+      <div class="container location-grid">
+        <div class="location-info">
+          <h2>Location & Hours</h2>
+          <p>
+            The office is located inside the Walmart Vision Center at 1050 E Van Fleet Rd, Bartow, FL 33830.
+          </p>
+          <div class="location-details">
+            <p><strong>Address</strong><br />1050 E Van Fleet Rd<br />Bartow, FL 33830</p>
+			<p><strong>Hours</strong><br />Mondays: 9 - 5<br />Tuesdays: -----<br />Wednesdays: -----<br />Thursdays: 9 - 5<br />Fridays: 9 - 5<br />Saturdays: 9 - 2<br />Sundays: -----</p>
+            <p><strong>Located Inside</strong><br />Walmart Supercenter #580 – Vision Center</p>
+            <p><strong>Phone</strong><br />(863) 533-6073 (Vision Center)</p>
+          </div>
+        </div>
+        <div class="location-map">
+          <div class="map-embed-wrapper">
+            <!-- You can replace the src with your own embedded map link -->
+            <iframe
+              title="Map to 1050 E Van Fleet Rd Bartow FL 33830"
+              src="https://www.google.com/maps?q=1050+E+Van+Fleet+Dr,+Bartow,+FL+33830&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-text">
+          <h2>Schedule Your Visit</h2>
+          <p>
+            To make an appointment for your eye exam,
+          </p>
+          <ul class="contact-list">
+            <li><strong>Call:</strong> (863) 533-6073 (Vision Center desk)</li>
+			<li><strong>Book online:</strong> <a href = "https://itrust0666.itrust.io/appointment" style = "color:white">here</a></li>
+            <li><strong>Visit:</strong> 1050 E Van Fleet Rd, Bartow, FL 33830.</li>
+          </ul>
+          <p>
+            Walk ins are always welcome! Patients are encouraged to bring a current medication list and their most recent glasses or contact lenses to help ensure a complete evaluation.
+          </p>
+        </div>
+        <div class="contact-card">
+		  <img src="snellentest.png" alt="Snellen eye chart" class="snellen-image" />
+          <!-- <h3>Quick Message</h3>
+          <p class="small-note">
+            This is a non-functional demo form for the static site; connect it to your preferred system later.
+          </p>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input id="phone" type="tel" name="phone" placeholder="Best phone number" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="3" placeholder="Preferred day/time or questions"></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">Submit Request</button>
+            <p class="form-status" id="form-status"></p>
+          </form> -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Vrunda Patel, O.D. All rights reserved.</p>
+      <p class="footer-note">
+        Independent Doctor of Optometry located inside Walmart; eye exams provided by Dr. Patel, eyewear provided by Walmart Vision Center.
+      </p>
+      <a href="#top" class="back-to-top">Back to top</a>
     </div>
-	<div class="overlay"></div>
-  </section>
-
-  <section id="about" class="container py-5">
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Meet Dr. Vrunda Patel</h3>
-        <p>At Optomeyez Vision, we are committed to delivering high-quality, patient-centered eye care. Our modern practice blends state-of-the-art technology with a warm, welcoming atmosphere to help you see clearly and live fully.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="doctor.jpg" alt="Doctor" id="doctor">
-      </div>
-    </div>
-  </section>
-
-  <section id="services" class="bg-light py-5">
-    <div class="container">
-      <h3 class="text-center mb-4">Our Services</h3>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Comprehensive Eye Exams</li>
-        <li class="list-group-item">Contact Lens Fittings</li>
-        <li class="list-group-item">Diabetic Eye Care</li>
-        <li class="list-group-item">Ocular Disease Management</li>
-        <li class="list-group-item">Pediatric Vision Care</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contact" class="container py-5">
-    <h3 class="text-center mb-4">Contact Us</h3>
-    <form id="contactForm" class="mx-auto" style="max-width: 600px;">
-      <div class="mb-3">
-        <input type="text" class="form-control" name="name" placeholder="Your Name" required />
-      </div>
-      <div class="mb-3">
-        <input type="email" class="form-control" name="email" placeholder="Your Email" required />
-      </div>
-      <div class="mb-3">
-        <textarea class="form-control" name="message" placeholder="Your Message" rows="4" required></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary w-100">Send</button>
-      <p id="formStatus" class="mt-3 text-success text-center"></p>
-    </form>
-  </section>
-
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Optomeyez Vision. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
