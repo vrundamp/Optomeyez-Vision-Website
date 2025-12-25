@@ -377,7 +377,10 @@ body {
   object-fit: scale-down; /* or try 'scale-down' */
   object-position: center top; /* adjust as needed */
   display: block;
-  transition: transform 0.3s ease;
+}
+
+img {
+	transition: transform 0.3s ease;
 }
 
 img:hover {
