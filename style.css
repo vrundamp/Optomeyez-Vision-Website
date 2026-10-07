@@ -235,7 +235,7 @@ body {
 
 .hero-logo-large {
   width: 100%;
-  max-width: 420px;
+  max-width: 320px;
   height: auto;
   border-radius: 16px;
   box-shadow: 0 20px 60px rgba(37, 99, 235, 0.3);
